@@ -1,0 +1,15 @@
+
+
+a)Create an HBase table named 'clicks' with a column family 'hits' such that it should be able to
+store last 5 values of qualifiers inside 'hits' column family.
+
+solution :
+
+create 'clicks', 'hits:online', VERSIONS >= 5;
+
+
+b)
+
+
+
+
